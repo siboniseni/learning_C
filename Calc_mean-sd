@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <math.h>
+
+//This program takes 5 values and calc MEAN and STANDARD DEVIATION
+//I use it to calc HDL control value at the lab
+
+int main(){
+
+	float a, b, c, d, e, sum, mean, x, sd;
+
+	printf("Enter value a: %f\n", a);
+	scanf("%f", &a);
+
+	printf("Enter value b: %f\n", b);
+	scanf("%f", &b);
+
+	printf("Enter value c: %f\n", c);
+	scanf("%f", &c);
+    
+	printf("Enter value d: %f\n", d);
+	scanf("%f", &d);
+    
+	printf("Enter value e: %f\n", e);
+	scanf("%f", &e);
+    	
+	sum = a + b + c + d + e;
+	mean = sum / 5;
+
+	printf("Mean = %f\n", mean);
+    	
+	x = ((a-mean)*(a-mean)) + ((b-mean)*(b-mean)) + ((c-mean)*(c-mean)) + ((d-mean)*(d-mean)) + ((e-mean)*(e-mean));
+	//x is the sum of (entered values minus mean all suared) 
+    
+	sd = sqrt(x / 5);
+	printf("Standard deviation = %.2f", sd);
+
+	return 0;
+}
