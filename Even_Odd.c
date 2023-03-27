@@ -9,7 +9,7 @@ int main() {
 
     int n = 0, x;
     
-    printf("Enter a value: %d\n", n);
+    printf("Enter a value: ");
     scanf("%d", &n);
     
     x = n % 2;
