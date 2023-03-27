@@ -8,19 +8,19 @@ int main(){
 
 	float a, b, c, d, e, sum, mean, x, sd;
 
-	printf("Enter value a: %f\n", a);
+	printf("Enter value a: ");
 	scanf("%f", &a);
 
-	printf("Enter value b: %f\n", b);
+	printf("Enter value b: ");
 	scanf("%f", &b);
 
-	printf("Enter value c: %f\n", c);
+	printf("Enter value c: ");
 	scanf("%f", &c);
     
-	printf("Enter value d: %f\n", d);
+	printf("Enter value d: ");
 	scanf("%f", &d);
     
-	printf("Enter value e: %f\n", e);
+	printf("Enter value e: ");
 	scanf("%f", &e);
     	
 	sum = a + b + c + d + e;
