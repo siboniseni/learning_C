@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
  *  This programm prints the Even numbers between 1 and 20
- * 
+ *  Using for loop 
 */
+
 int main()
 {
     int x;
