@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+//A C program to check whether the given integer is a multiple of 5
+
+int main()
+{
+    int n;
+    
+    printf("Enter a value: ");
+    scanf("%d", &n);
+    
+    if (n%5 == 0)
+    {
+        printf("%d is a multiple of 5", n);
+    }
+    else
+    {
+        printf("%d is not a multiple of 5", n);
+    }
+    return 0;
+}
